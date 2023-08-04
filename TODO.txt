@@ -1,0 +1,32 @@
+
+Note: included in this file may not be all of what is needed for the project.
+For now, what is being written is the necessities for starting the project.
+
+If you finish anything, then please mark an asterisk in the square brackets for
+the task. If you think there needs to be another task, or a more diverse
+description for it, then you can change or add one in the appropriate section.
+You may also add a percentage in the square brackets if you think you may have a
+specific amount of progress with something. Also please sort completed tasks
+towards the bottom, and anything else above.
+
+-- Objects --
+[] Player
+[] Battlebox
+
+-- Programming --
+[] Player Movement
+[] Player Damage Detection
+[] Player Stats
+[] Battlebox Scaling
+
+-- Graphics --
+[] Player Soul
+[] Fight Menu Buttons
+
+-- Animations/Bullet Patterns --
+[] Player Damage
+
+-- (don't have to focus on) --
+[] Overworld Character Controller
+[] Interaction System
+[] Pause Menu
