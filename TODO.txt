@@ -6,21 +6,22 @@ If you finish anything, then please mark an asterisk in the square brackets for
 the task. If you think there needs to be another task, or a more diverse
 description for it, then you can change or add one in the appropriate section.
 You may also add a percentage in the square brackets if you think you may have a
-specific amount of progress with something. Also please sort completed tasks
-towards the bottom, and anything else above.
+specific amount of progress with something, and a note after a colon ":". Also
+please sort completed tasks towards the bottom, and anything else above.
 
 -- Objects --
-[] Player
-[] Battlebox
+[50%] Player Soul
+[] Bulletboard
+[] UI Buttons
 
 -- Programming --
-[] Player Movement
+[*] Player Movement
 [] Player Damage Detection
 [] Player Stats
-[] Battlebox Scaling
+[20%] Bulletboard Scaling: Not showing up for some reason.
 
 -- Graphics --
-[] Player Soul
+[*] Player Soul
 [] Fight Menu Buttons
 
 -- Animations/Bullet Patterns --

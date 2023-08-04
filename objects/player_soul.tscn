@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0rjwnllt4x4e"]
+
+[ext_resource type="Script" path="res://scripts/player_soul.gd" id="1_bwpar"]
+[ext_resource type="Texture2D" uid="uid://bmftyox5h14ge" path="res://art/player_soul.png" id="1_ossl7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sp34d"]
+size = Vector2(16, 16)
+
+[node name="PlayerSoul" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_bwpar")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ossl7")
+hframes = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_sp34d")
