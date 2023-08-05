@@ -24,8 +24,4 @@ also need help working on the design for this, like the logo and custom sprites
 You can contribute via pull requests. ANY pull requests are welcome. You may
 write documentation, rewrite this README file, fix my bad code, work on tasks,
 create tasks, import assets, and so on. If there's anything in the project that
-you think needs work on, then GO AHEAD. It is appreciated!
-
-(By the way for the logo design I'm thinking an Undyne trident through the UT
-soul, as Equuleus (the horse) was apparently struck down (or up) by a trident,
-but hey you are the designer, whoever you may be)
+you think needs work on, then GO AHEAD. It is appreciated.
