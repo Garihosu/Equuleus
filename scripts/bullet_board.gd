@@ -1,21 +1,22 @@
 extends StaticBody2D
 
-var size_x: float
-var size_y: float
+var size: Vector2
 
 func _ready():
-	size_x = .0
-	size_y = .0
-
+	size.x = 570
+	size.y = 120
+	
 func _draw():
-	draw_rect(Rect2(position.x, position.y, size_x, size_y), Color.WHITE, false, -4)
+	draw_rect(Rect2(position, scale), Color.WHITE, false, -4.0)
 
 func _process(_delta):
-	if size_x < scale.x:
-		size_x += (scale.x - size_x) / 2
-	if size_x > scale.x:
-		size_x -= (size_x - scale.x) / 2
-	if size_y < scale.y:
-		size_y += (scale.y - size_y) / 2
-	if size_y > scale.y:
-		size_y -= (size_y - scale.y) / 2
+	if scale.x < size.x:
+		scale.x += (size.x - scale.x) / 2
+	if scale.x > size.x:
+		scale.x -= (scale.x - size.x) / 2
+	if scale.y < size.y:
+		scale.y += (size.y - scale.y) / 2
+	if scale.y > size.y:
+		scale.y -= (scale.y - size.y) / 2
+	
+	queue_redraw()

@@ -18,7 +18,7 @@ please sort completed tasks towards the bottom, and anything else above.
 [*] Player Movement
 [] Player Damage Detection
 [] Player Stats
-[20%] Bulletboard Scaling: Not showing up for some reason.
+[5%] Bulletboard Scaling: In dire need of help. Cannot figure out. I am stupid.
 
 -- Graphics --
 [*] Player Soul

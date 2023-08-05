@@ -5,9 +5,7 @@
 
 [node name="Battle" type="Node2D"]
 
-[node name="BulletBoard" parent="." instance=ExtResource("2_o0giv")]
-position = Vector2(320, 384)
-scale = Vector2(570, 120)
-
 [node name="PlayerSoul" parent="." instance=ExtResource("1_2g1tm")]
-position = Vector2(324, 360)
+position = Vector2(320, 386)
+
+[node name="BulletBoard" parent="." instance=ExtResource("2_o0giv")]
